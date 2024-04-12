@@ -3,6 +3,15 @@ cards
 
 Project task tracking / todo list
 
+Install
+-----
+
+```shell
+$ python3 -m ven .venv
+$ source .venv/bin/activate
+$ pip install ./
+```
+
 Usage
 -----
 
