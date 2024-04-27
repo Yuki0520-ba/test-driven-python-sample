@@ -17,7 +17,7 @@ def test_add_from_empty(cards_db):
     c = Card(summary="do something")
     i = cards_db.add_card(c)
     assert cards_db.count() == 1
-    assert cards_db.get_card(i) != c
+    assert cards_db.get_card(i) == c
 
 
 @pytest.mark.num_cards(3)
